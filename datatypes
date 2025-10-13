@@ -1,0 +1,6 @@
+  number(int)
+  string
+  bigint
+  boolean
+  undefined 
+  object
