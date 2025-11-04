@@ -1,0 +1,16 @@
+ const Name = new String('hello-india');
+
+ //console.log(Name.length);
+ //console.log(Name[0]);
+ //console.log(Name.toUpperCase());
+ //console.log(Name.charAt(3));
+ //console.log(Name.indexOf('l'));
+
+ const firststring = Name.substring(0,5)
+ console.log(firststring);
+
+ const secondstring = Name.slice(-8,4)
+ console.log(secondstring);
+
+ const url ="https://google.com/google%100chrome"
+ console.log(url.replace('%100','-'));
